@@ -1,0 +1,7 @@
+﻿  main.cpp
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 220 (OpenCL 2.2)
+D:\GPU_Labs\GPU_Lab_1\GPU_Lab_1\main.cpp(64,24): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GPU_Labs\GPU_Lab_1\GPU_Lab_1\main.cpp(87,26): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GPU_Labs\GPU_Lab_1\GPU_Lab_1\main.cpp(160,24): warning C4018: <: несоответствие типов со знаком и без знака
+D:\GPU_Labs\GPU_Lab_1\GPU_Lab_1\main.cpp(183,26): warning C4018: <: несоответствие типов со знаком и без знака
+  GPU_Lab_1.vcxproj -> D:\GPU_Labs\GPU_Lab_1\x64\Debug\GPU_Lab_1.exe

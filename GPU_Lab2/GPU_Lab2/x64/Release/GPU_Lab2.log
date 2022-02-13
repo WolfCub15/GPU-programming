@@ -1,0 +1,26 @@
+﻿  main.cpp
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 220 (OpenCL 2.2)
+D:\GPU_Labs\GPU_Lab2\GPU_Lab2\main.cpp(183,16): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab2\GPU_Lab2\main.cpp(184,16): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab2\GPU_Lab2\main.cpp(185,18): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab2\GPU_Lab2\main.cpp(175,13): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab2\GPU_Lab2\main.cpp(205): message : выполняется компиляция ссылки на экземпляр шаблон функции "void genData<float>(T *&,int &,T &)"
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab2\GPU_Lab2\main.cpp(178,17): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+  Создание кода
+  3 of 111 functions ( 2.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    5 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  GPU_Lab2.vcxproj -> D:\GPU_Labs\GPU_Lab2\x64\Release\GPU_Lab2.exe

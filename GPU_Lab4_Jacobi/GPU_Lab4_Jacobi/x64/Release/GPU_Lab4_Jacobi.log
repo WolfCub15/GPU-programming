@@ -1,0 +1,61 @@
+﻿  main.cpp
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 220 (OpenCL 2.2)
+D:\GPU_Labs\GPU_Lab4_Jacobi\GPU_Lab4_Jacobi\main.cpp(17,84): warning C4244: аргумент: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+D:\GPU_Labs\GPU_Lab4_Jacobi\GPU_Lab4_Jacobi\main.cpp(227,14): warning C4244: =: преобразование "unsigned int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab4_Jacobi\GPU_Lab4_Jacobi\main.cpp(269): message : выполняется компиляция ссылки на экземпляр шаблон функции "void run<float>(cl_device_id &,std::string)"
+D:\GPU_Labs\GPU_Lab4_Jacobi\GPU_Lab4_Jacobi\main.cpp(42,10): warning C4244: инициализация: преобразование "unsigned int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab4_Jacobi\GPU_Lab4_Jacobi\main.cpp(221): message : выполняется компиляция ссылки на экземпляр шаблон функции "void GenerateMatrix<T>(T *)"
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab4_Jacobi\GPU_Lab4_Jacobi\main.cpp(269): message : выполняется компиляция ссылки на экземпляр шаблон функции "void run<float>(cl_device_id &,std::string)"
+D:\GPU_Labs\GPU_Lab4_Jacobi\GPU_Lab4_Jacobi\main.cpp(57,9): warning C4244: инициализация: преобразование "unsigned int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab4_Jacobi\GPU_Lab4_Jacobi\main.cpp(222): message : выполняется компиляция ссылки на экземпляр шаблон функции "void GenerateVector<T>(T *)"
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab4_Jacobi\GPU_Lab4_Jacobi\main.cpp(156,33): warning C4838: Преобразование из "int" в "size_t" требует сужающего преобразования.
+D:\GPU_Labs\GPU_Lab4_Jacobi\GPU_Lab4_Jacobi\main.cpp(245): message : выполняется компиляция ссылки на экземпляр шаблон функции "double OpenCLJacobi<T>(cl_device_id &,int,T *,T *,T *,T *,T *,char *,char *,int &,T &)"
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab4_Jacobi\GPU_Lab4_Jacobi\main.cpp(159,1): warning C4305: инициализация: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab4_Jacobi\GPU_Lab4_Jacobi\main.cpp(79,1): warning C4305: инициализация: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab4_Jacobi\GPU_Lab4_Jacobi\main.cpp(247): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool Check<T>(T *,T *,T *)"
+          with
+          [
+              T=float
+          ]
+  Создание кода
+  4 of 220 functions ( 1.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  GPU_Lab4_Jacobi.vcxproj -> D:\GPU_Labs\GPU_Lab4_Jacobi\x64\Release\GPU_Lab4_Jacobi.exe

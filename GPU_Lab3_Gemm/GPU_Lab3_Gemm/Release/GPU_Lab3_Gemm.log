@@ -1,0 +1,43 @@
+﻿  main.cpp
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 220 (OpenCL 2.2)
+D:\GPU_Labs\GPU_Lab3_Gemm\GPU_Lab3_Gemm\main.cpp(116,27): warning C4838: Преобразование из "int" в "size_t" требует сужающего преобразования.
+D:\GPU_Labs\GPU_Lab3_Gemm\GPU_Lab3_Gemm\main.cpp(116,39): warning C4838: Преобразование из "int" в "size_t" требует сужающего преобразования.
+D:\GPU_Labs\GPU_Lab3_Gemm\GPU_Lab3_Gemm\main.cpp(151,26): warning C4244: инициализация: преобразование "__int64" в "unsigned int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab3_Gemm\GPU_Lab3_Gemm\main.cpp(152,26): warning C4244: инициализация: преобразование "__int64" в "unsigned int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab3_Gemm\GPU_Lab3_Gemm\main.cpp(153,27): warning C4244: инициализация: преобразование "__int64" в "unsigned int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab3_Gemm\GPU_Lab3_Gemm\main.cpp(186,26): warning C4244: инициализация: преобразование "__int64" в "unsigned int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab3_Gemm\GPU_Lab3_Gemm\main.cpp(187,26): warning C4244: инициализация: преобразование "__int64" в "unsigned int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab3_Gemm\GPU_Lab3_Gemm\main.cpp(188,27): warning C4244: инициализация: преобразование "__int64" в "unsigned int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab3_Gemm\GPU_Lab3_Gemm\main.cpp(20,16): warning C4244: инициализация: преобразование "__int64" в "unsigned int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab3_Gemm\GPU_Lab3_Gemm\main.cpp(161): message : выполняется компиляция ссылки на экземпляр шаблон функции "T *SequentialGemm<double>(T *,T *,double &)"
+          with
+          [
+              T=double
+          ]
+D:\GPU_Labs\GPU_Lab3_Gemm\GPU_Lab3_Gemm\main.cpp(38,16): warning C4244: инициализация: преобразование "__int64" в "unsigned int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab3_Gemm\GPU_Lab3_Gemm\main.cpp(162): message : выполняется компиляция ссылки на экземпляр шаблон функции "T *OMPGemm<double>(T *,T *,double &)"
+          with
+          [
+              T=double
+          ]
+main.obj : error LNK2001: неразрешенный внешний символ _clCreateBuffer@24.
+main.obj : error LNK2001: неразрешенный внешний символ _clEnqueueNDRangeKernel@36.
+main.obj : error LNK2001: неразрешенный внешний символ _clBuildProgram@24.
+main.obj : error LNK2001: неразрешенный внешний символ _clReleaseCommandQueue@4.
+main.obj : error LNK2001: неразрешенный внешний символ _clReleaseProgram@4.
+main.obj : error LNK2001: неразрешенный внешний символ _clReleaseKernel@4.
+main.obj : error LNK2001: неразрешенный внешний символ _clFinish@4.
+main.obj : error LNK2001: неразрешенный внешний символ _clEnqueueReadBuffer@36.
+main.obj : error LNK2001: неразрешенный внешний символ _clGetDeviceIDs@24.
+main.obj : error LNK2001: неразрешенный внешний символ _clReleaseContext@4.
+main.obj : error LNK2001: неразрешенный внешний символ _clCreateCommandQueueWithProperties@16.
+main.obj : error LNK2001: неразрешенный внешний символ _clCreateContext@24.
+main.obj : error LNK2001: неразрешенный внешний символ _clGetPlatformIDs@12.
+main.obj : error LNK2001: неразрешенный внешний символ _clGetPlatformInfo@20.
+main.obj : error LNK2001: неразрешенный внешний символ _clGetDeviceInfo@20.
+main.obj : error LNK2001: неразрешенный внешний символ _clReleaseMemObject@4.
+main.obj : error LNK2001: неразрешенный внешний символ _clEnqueueWriteBuffer@36.
+main.obj : error LNK2001: неразрешенный внешний символ _clCreateKernel@12.
+main.obj : error LNK2001: неразрешенный внешний символ _clCreateProgramWithSource@20.
+main.obj : error LNK2001: неразрешенный внешний символ _clSetKernelArg@16.
+D:\GPU_Labs\GPU_Lab3_Gemm\Release\GPU_Lab3_Gemm.exe : fatal error LNK1120: неразрешенных внешних элементов: 20

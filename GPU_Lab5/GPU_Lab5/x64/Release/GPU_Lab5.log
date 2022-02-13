@@ -1,0 +1,95 @@
+﻿  main.cpp
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 220 (OpenCL 2.2)
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\jacobi.h(7,1): warning C4005: BLOCK_SIZE: изменение макроопределения
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\gemm.h(7): message : см. предыдущее определение "BLOCK_SIZE"
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\utils.h(18,1): warning C4114: Множественное использование одного и того же квалификатора типа.
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\utils.h(34,1): warning C4114: Множественное использование одного и того же квалификатора типа.
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\utils.h(67,84): warning C4244: аргумент: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(78,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(413): message : выполняется компиляция ссылки на экземпляр шаблон функции "void runGemm<float>(std::string)"
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(90,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(112,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(123,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(147,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(159,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(181,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(192,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(230,1): warning C4305: =: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(423): message : выполняется компиляция ссылки на экземпляр шаблон функции "void runJacobi<float>(std::string)"
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(235,1): warning C4305: =: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(266,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(281,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(316,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(331,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\utils.h(10,21): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(65): message : выполняется компиляция ссылки на экземпляр шаблон функции "void GenerateMatrix<T>(T *,T *,int,int,int)"
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(413): message : выполняется компиляция ссылки на экземпляр шаблон функции "void runGemm<float>(std::string)"
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\utils.h(13,21): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\gemm.h(84,16): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(71): message : выполняется компиляция ссылки на экземпляр шаблон функции "double opencl_gemm<T>(cl_uint,cl_uint,cl_uint,cl_uint,int,int,int,T *,T *,T *,char *,char *,double)"
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\gemm.h(97,37): warning C4838: Преобразование из "int" в "size_t" требует сужающего преобразования.
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\gemm.h(97,40): warning C4838: Преобразование из "int" в "size_t" требует сужающего преобразования.
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\gemm.h(98,37): warning C4838: Преобразование из "int" в "size_t" требует сужающего преобразования.
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\gemm.h(98,40): warning C4838: Преобразование из "int" в "size_t" требует сужающего преобразования.
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\utils.h(73,10): warning C4244: инициализация: преобразование "unsigned int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(239): message : выполняется компиляция ссылки на экземпляр шаблон функции "void generateA<T>(T *)"
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(423): message : выполняется компиляция ссылки на экземпляр шаблон функции "void runJacobi<float>(std::string)"
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\utils.h(83,9): warning C4244: инициализация: преобразование "unsigned int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(240): message : выполняется компиляция ссылки на экземпляр шаблон функции "void generateB<T>(T *)"
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\jacobi.h(106,16): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\main.cpp(255): message : выполняется компиляция ссылки на экземпляр шаблон функции "double Jacobi<T>(cl_uint,cl_uint,cl_uint,cl_uint,int,T *,T *,T *,T *,T *,char *,char *,double,double,int)"
+          with
+          [
+              T=float
+          ]
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\jacobi.h(109,37): warning C4838: Преобразование из "int" в "size_t" требует сужающего преобразования.
+D:\GPU_Labs\GPU_Lab5\GPU_Lab5\jacobi.h(110,37): warning C4838: Преобразование из "int" в "size_t" требует сужающего преобразования.
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 229 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  GPU_Lab5.vcxproj -> D:\GPU_Labs\GPU_Lab5\x64\Release\GPU_Lab5.exe
